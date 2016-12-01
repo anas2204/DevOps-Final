@@ -1,0 +1,31 @@
+{
+  "name": "queue",
+  "version": "0.0.0",
+  "description": "redis playground",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.12.3",
+    "multer": "^0.1.8",
+    "redis": "^0.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "http-proxy": "^1.15.2",
+    "random-js": "^1.0.8",
+    "redis": "^2.6.2",
+    "chai": "^3.5.0",
+    "child_process": "^1.0.2",
+    "forever": "^0.15.3",
+    "ip": "^1.1.4",
+    "mocha": "^3.1.2",
+    "multer": "^0.1.8",
+    "request": "^2.78.0"
+  }
+}

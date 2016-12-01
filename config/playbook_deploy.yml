@@ -1,0 +1,46 @@
+---
+- hosts: node1
+  become: true
+  tasks:
+    # - name: Create dir to copy files
+    #   file: path='/home/ubuntu/Target_canary' state='directory'
+    # - name: untar files
+    #   unarchive: src='../target/deploy.tgz' dest='/home/ubuntu/Target_canary/' remote_src='yes'
+
+    # npm install
+    # - name: link
+    #   command: ln -s /usr/bin/nodejs /usr/bin/node
+
+    - name: npm installation
+      npm: path=/root/m4/
+
+    # Start Main and Proxy JS
+
+    - name: copy files
+      copy: src='../main.js' dest='/root/m4/' mode=0777
+
+    - name: copy files
+      copy: src='../package.json' dest='/root/m4/' mode=0777
+
+    - name: copy files
+      copy: src='../set-dict.html' dest='/root/m4/' mode=0777
+
+    - name: copy files
+      copy: src='../get-dict.html' dest='/root/m4/' mode=0777
+
+    - name: copy files
+      copy: src='../checkAnomaly.py' dest='/root/m4/' mode=0777
+
+
+
+    - name: Start main.js
+      command: /root/m4/node_modules/.bin/forever start /root/m4/main.js
+
+    - name: Create a log file
+      command: touch /root/m4/logs.txt
+
+    - name: Start anomaly service
+      command: python /root/m4/checkAnomaly.py &
+
+    - name: Status of anomaly
+      command: echo 'Hello'

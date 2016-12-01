@@ -27,21 +27,6 @@ app.use(function(req, res, next)
 
 	// ... INSERT HERE.
 
-	var ip = req.headers['x-forwarded-for'] ||
-     req.connection.remoteAddress ||
-     req.socket.remoteAddress ||
-     req.connection.socket.remoteAddress;
-
-  console.log(ip+"Request:"+req.url);
-
-  fs.appendFile("/root/m4/logs.txt", ip+"!"+req.url+"\n", function(err) {
-    if(err) {
-        return console.log(err);
-    }
-
-    console.log("The file was saved!");
-  });
-
 	// Used to push a web-page to the list.
 	client.lpush('webpage',req.url, function(err, reply){
 		console.log(reply); // It will be the size of the list. Refer to lpush in
