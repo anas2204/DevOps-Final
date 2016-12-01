@@ -1,0 +1,1 @@
+node1 ansible_ssh_host=188.166.24.232 ansible_ssh_user=root ansible_ssh_private_key_file=/Users/bhargav/.ssh/id_rsa
