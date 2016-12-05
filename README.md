@@ -1,5 +1,5 @@
 # Milestone 4
-Unity ID: asiddiq
+Unity ID: aslingwa, bjhaver and asiddiq
 Project: Live Deploy and Log monitoring
 
 Screencast : https://www.youtube.com/watch?v=QvSINqmpzrA&feature=youtu.be
