@@ -24,7 +24,7 @@ This use-case can be expanded to include Billing of users for an API, or detecti
 
 
 
-[Summary]:https://github.ncsu.edu/bjhaver/CSC591_M4/blob/master/Summary.jpg
-[ArchPicture]:https://github.ncsu.edu/bjhaver/CSC591_M4/blob/master/Architecture.jpg
+[Summary]:https://github.com/anas2204/DevOps-Final/blob/master/Summary.jpg
+[ArchPicture]:https://github.com/anas2204/DevOps-Final/blob/master/Architecture.jpg
 [Presentation]:https://docs.google.com/presentation/d/15-6IiFIm0PVgkMcrBomweRoJCvF9U1KFKr0Bv0_N87c/edit?usp=sharing
-[script]:https://github.ncsu.edu/bjhaver/CSC591_M4/blob/master/live_deploy.sh
+[script]:https://github.com/anas2204/DevOps-Final/blob/master/live_deploy.sh
