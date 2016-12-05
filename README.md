@@ -1,13 +1,12 @@
 # Milestone 4
 Unity ID: aslingwa, bjhaver and asiddiq
-Project: Live Deploy and Log monitoring
 
-Screencast : https://www.youtube.com/watch?v=QvSINqmpzrA&feature=youtu.be
+<b>Screencast</b> : https://www.youtube.com/watch?v=QvSINqmpzrA&feature=youtu.be
 
-Class Presentation: [Presentation]
+<b>Class Presentation</b>: [Presentation]
 
 ***
-##Special Milestone
+##Special Milestone - Live Deploy and Log monitoring
 ![][ArchPicture]
 
 ###Live Deploy
